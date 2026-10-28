@@ -1,0 +1,37 @@
+{
+  "name": "globalpay-bt-prototype",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "test:api": "tsx scripts/api-test.mts"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "jszip": "3.10.1",
+    "next": "14.2.15",
+    "nodemailer": "6.9.15",
+    "pdf-lib": "1.17.1",
+    "pg": "8.13.0",
+    "qrcode": "^1.5.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "swr": "2.2.5"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.12",
+    "@types/bcryptjs": "2.4.6",
+    "@types/node": "20.16.10",
+    "@types/nodemailer": "6.4.16",
+    "@types/pg": "8.11.10",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "18.3.11",
+    "prettier": "3.3.3",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3"
+  }
+}
